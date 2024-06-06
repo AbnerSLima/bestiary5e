@@ -4,7 +4,7 @@ export function Cards(props) {
   return (
     <div className="listCard">
       <div className="listImg">
-          <img src="./icon_bestiary.png" alt="imagem do monstro" />
+          <img src="" alt="imagem do monstro" />
       </div>
       <div className="listData">
         <h2

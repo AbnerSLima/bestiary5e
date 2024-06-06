@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import { Topo } from './components/Topo'
+import { Header } from './components/Header'
 import { Cards } from './components/Cards'
 import './App.css'
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='app'>
       <div>
-      <Topo />
+      <Header />
       <Cards />
       </div>
 
