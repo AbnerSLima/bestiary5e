@@ -1,8 +1,17 @@
+import { useState, useEffect } from 'react'
 import './Cards.css'
 
 export function Cards(props) {
+    const [monstersList, setMonstersList] = useState([]);
+
+    useEffect(() => {
+      fetch('/monsterList.jsaon')
+          .then(response => response.json())
+          .then(data => setMonstros(data));
+    }, []);
+
   return (
-    <div className="listCard">
+    <div className="listCard bs-3 bg-2 border">
       <div className="listImg">
           <img src="" alt="imagem do monstro" />
       </div>
@@ -20,7 +29,7 @@ export function Cards(props) {
           Dragão
         </span>
         <span
-          id="sizeList">
+          id="listSize">
           Imenso
         </span>
       </div>

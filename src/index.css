@@ -29,3 +29,23 @@
 .color-5 {
   color: #1b0e0b
 }
+
+.bs-1 {
+  box-shadow: 3px 3px #F2EDE4
+}
+.bs-2 {
+  box-shadow: 3px 3px #D9C7A7
+}
+.bs-3 {
+  box-shadow: 3px 3px #480006
+}
+.bs-4 {
+  box-shadow: 3px 3px #735340
+}
+.bs-5 {
+  box-shadow: 3px 3px #1b0e0b;
+}
+
+.border {
+  border: 0 solid black;
+}
